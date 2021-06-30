@@ -83,13 +83,19 @@ body{
     border-radius: 25px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(255,59,0);
     cursor: pointer;
     background-color:rgb(255,63,8);
+    background: linear-gradient(142deg, rgba(255,59,0,1) 0%, rgba(248,108,99,1) 40%, rgba(255,140,0,1) 100%);
+    color: white;
+    border: 2px solid white;
 }
 
 .feature .regbutton button:hover{
+    border: 2px solid black;
     background-color: white;
+    background: white;
+    color: black;
+    cursor: pointer;
 }
 
 .feature .image img{
@@ -98,5 +104,9 @@ body{
     height: 270px;
     justify-content: center;
     text-align: center;
+}
+
+.yogaimage img{
+    height: 500px;
 }
 
