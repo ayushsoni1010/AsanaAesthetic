@@ -126,11 +126,13 @@ body{
     background: rgb(255,59,0);
     background: linear-gradient(142deg, rgba(255,59,0,1) 0%, rgba(248,108,99,1) 60%, rgb(248, 156, 43) 80%);
     display: flex;
-    justify-content:right;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 40px;
 }
-.container h1,p{
+.container .content{
     display: flex;
-    position: relative;
-    
-    justify-content: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
